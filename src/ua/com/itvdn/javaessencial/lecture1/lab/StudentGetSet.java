@@ -1,50 +1,62 @@
 package ua.com.itvdn.javaessencial.lecture1.lab;
 
 public class StudentGetSet extends Student {
-    private String firstName;
-    private String lastName;
-    private int yearBorn;
-    private int phoneNumber;
-    private int group;
 
+    public StudentGetSet(String firstName, String lastName, int yearBorn, int phoneNumber, int group) {
+        super(firstName, lastName, yearBorn, phoneNumber, group);
+    }
 
+    public StudentGetSet() {
+        Student.count++;
+    }
+
+    @Override
     public String getFirstName() {
-        return firstName;
+        return super.getFirstName();
     }
 
+    @Override
     public void setFirstName(String firstName) {
-        this.firstName = firstName;
+        super.setFirstName(firstName);
     }
 
+    @Override
     public String getLastName() {
-        return lastName;
+        return super.getLastName();
     }
 
+    @Override
     public void setLastName(String lastName) {
-        this.lastName = lastName;
+        super.setLastName(lastName);
     }
 
+    @Override
     public int getYearBorn() {
-        return yearBorn;
+        return super.getYearBorn();
     }
 
+    @Override
     public void setYearBorn(int yearBorn) {
-        this.yearBorn = yearBorn;
+        super.setYearBorn(yearBorn);
     }
 
+    @Override
     public int getPhoneNumber() {
-        return phoneNumber;
+        return super.getPhoneNumber();
     }
 
+    @Override
     public void setPhoneNumber(int phoneNumber) {
-        this.phoneNumber = phoneNumber;
+        super.setPhoneNumber(phoneNumber);
     }
 
+    @Override
     public int getGroup() {
-        return group;
+        return super.getGroup();
     }
 
+    @Override
     public void setGroup(int group) {
-        this.group = group;
+        super.setGroup(group);
     }
 }

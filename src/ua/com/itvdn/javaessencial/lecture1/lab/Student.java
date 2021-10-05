@@ -23,7 +23,7 @@ public class Student {
     }
 
     public Student (){
-        count++;
+        Student.count++;
     };
 
     public String getFirstName() {
