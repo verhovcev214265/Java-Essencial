@@ -6,7 +6,7 @@ public class Main {
         Computer[] computers = new Computer[5];
 
         for (int i = 0; i < computers.length; i++){
-            System.out.println(computers[i]);
+            computers[i] = new Computer();
         }
     }
 }
