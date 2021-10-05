@@ -1,6 +1,6 @@
 package ua.com.itvdn.javaessencial.lecture1.lab;
 
-public class StudentGetSet {
+public class StudentGetSet extends Student {
     private String firstName;
     private String lastName;
     private int yearBorn;

@@ -12,6 +12,8 @@ public class Student {
     private int phoneNumber;
     private int group;
 
+    static int count;
+
     public Student(String firstName, String lastName, int yearBorn, int phoneNumber, int group) {
         this.firstName = firstName;
         this.lastName = lastName;
@@ -19,6 +21,10 @@ public class Student {
         this.phoneNumber = phoneNumber;
         this.group = group;
     }
+
+    public Student (){
+        count++;
+    };
 
     public String getFirstName() {
         return firstName;
@@ -59,6 +65,7 @@ public class Student {
     public void setGroup(int group) {
         this.group = group;
     }
+
 
     @Override
     public String toString() {

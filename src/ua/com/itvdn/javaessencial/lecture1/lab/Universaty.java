@@ -9,7 +9,7 @@ public class Universaty {
         Student mark = new Student("Mark", "Avreley",35,102,10);
         System.out.println(mark);
 
-        StudentGetSet ivan = new StudentGetSet();
+        Student ivan = new StudentGetSet();
         ivan.setFirstName("Ivan");
         ivan.setLastName("Ivanov");
         ivan.setYearBorn(1995);
@@ -18,5 +18,7 @@ public class Universaty {
 
         System.out.println(ivan.getFirstName() + ", " + ivan.getLastName() + ", " + ivan.getYearBorn() + ", " +
                 + ivan.getPhoneNumber() + ", " + ivan.getGroup());
+
+        System.out.println(Student.count);
     }
 }
