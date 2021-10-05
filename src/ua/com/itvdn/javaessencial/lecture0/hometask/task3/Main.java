@@ -7,6 +7,7 @@ public class Main {
 
         for (int i = 0; i < computers.length; i++){
             computers[i] = new Computer();
+            System.out.println(computers[i] + " ");
         }
     }
 }
