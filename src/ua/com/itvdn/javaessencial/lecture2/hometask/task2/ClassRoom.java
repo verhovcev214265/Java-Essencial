@@ -7,6 +7,10 @@ package ua.com.itvdn.javaessencial.lecture2.hometask.task2;
 //Выведите информацию о том, как все ученики экземпляра класса ClassRoom умеют учиться, читать, писать,
 //отдыхать.
 
+import org.w3c.dom.stylesheets.LinkStyle;
+
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class ClassRoom {

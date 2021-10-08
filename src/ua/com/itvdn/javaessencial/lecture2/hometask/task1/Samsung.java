@@ -1,4 +1,4 @@
-package ua.com.itvdn.javaessencial.lecture2.hometasks.task1;
+package ua.com.itvdn.javaessencial.lecture2.hometask.task1;
 
 public class Samsung extends Printer{
 

@@ -1,4 +1,4 @@
-package ua.com.itvdn.javaessencial.lecture2.hometasks.task1;
+package ua.com.itvdn.javaessencial.lecture2.hometask.task1;
 
 //Создайте класс Printer.
 //В теле класса создайте метод void print(String value), который выводит на экран значение аргумента.
