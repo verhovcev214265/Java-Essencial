@@ -1,9 +1,9 @@
-package ua.com.itvdn.javaessencial.lecture2.task2;
+package ua.com.itvdn.javaessencial.lecture2.lab.task2;
 
 public class ForeignPassport extends Passport{
 
-    private String visa;
-    private int passportNumber;
+   private String visa;
+   private int passportNumber;
 
     public ForeignPassport(String firstName, String lastName, int age, String visa, int passportNumber) {
         super(firstName, lastName, age);
@@ -19,11 +19,11 @@ public class ForeignPassport extends Passport{
         return passportNumber;
     }
 
-    @Override
+        @Override
     public String toString() {
         return "ForeignPassport{" +
-                "visa='" + visa + '\'' +
-                ", passportNumber=" + passportNumber +
+                "visa = '" + visa + '\'' +
+                ", passportNumber = " + passportNumber +
                 '}';
     }
 }

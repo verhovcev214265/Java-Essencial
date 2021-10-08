@@ -1,4 +1,4 @@
-package ua.com.itvdn.javaessencial.lecture2.task2;
+package ua.com.itvdn.javaessencial.lecture2.lab.task2;
 
 //Создайте класс Passport (паспорт), который будет содержать паспортную информацию о гражданине Украины.
 //С помощью механизма наследования, реализуйте класс ForeignPassport (загран.паспорт) производный от Passport.
