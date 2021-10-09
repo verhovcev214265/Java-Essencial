@@ -1,4 +1,4 @@
-package ua.com.itvdn.javaessencial.lecture3.lab;
+package ua.com.itvdn.javaessencial.lecture3.lab.task0;
 
 //Задание 1
 //Создать абстрактный базовый класс Employer (служащий) с абстрактным методом Print(). Создайте три производных

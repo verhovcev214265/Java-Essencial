@@ -1,4 +1,4 @@
-package ua.com.itvdn.javaessencial.lecture3.lab;
+package ua.com.itvdn.javaessencial.lecture3.lab.task0;
 
 public class Main {
     public static void main(String[] args) {
