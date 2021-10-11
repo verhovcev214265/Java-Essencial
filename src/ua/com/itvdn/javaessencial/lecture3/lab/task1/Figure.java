@@ -7,6 +7,6 @@ package ua.com.itvdn.javaessencial.lecture3.lab.task1;
 
 public abstract class Figure {
 
-    public abstract int myArea(int weight, int width);
+    public  abstract double myArea();
 
 }
