@@ -8,7 +8,6 @@ package ua.com.itvdn.javaessencial.lecture3.hometasks.task2;
 
 public abstract class Shape {
 
-    void draw(){
+   abstract void draw();
 
-    }
 }
