@@ -19,7 +19,7 @@ public class Main {
         Scanner scan = new Scanner(System.in);
 
         Player[] buttons = new Player[6];
-        
+
         for (int i = 0; i < 100; i++) {
 
             String input = scan.nextLine().toLowerCase();
