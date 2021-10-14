@@ -1,4 +1,4 @@
-package ua.com.itvdn.javaessencial.lecture5.lab.task1;
+package ua.com.itvdn.javaessencial.lecture5.lab.task2;
 
 //Задание 1
 //- Создать класс User, содержащий private переменные login, password.
@@ -13,35 +13,31 @@ package ua.com.itvdn.javaessencial.lecture5.lab.task1;
 //Задание 2
 //Переписать предыдущее задание, используя локальный класс
 
-public class User {
+    public class User {
 
-    private String login;
-    private int password;
+        private String login;
+        private int password;
 
-    public User(String login, int password) {
-        this.login = login;
-        this.password = password;
+        public User(String login, int password) {
+            this.login = login;
+            this.password = password;
+        }
+
+        public void  createAndShow(){
+            class Query{
+                protected void printToLog(){
+                    System.out.println("User: " + login + " sent a request");
+                }
+            }
+            new Query().printToLog();
+        }
+
+        @Override
+        public String toString() {
+            return "User{" +
+                    "login='" + login + '\'' +
+                    ", password='" + password + '\'' +
+                    '}';
+        }
     }
 
-    public class Query{
-
-       public void printToLog(){
-           System.out.println("User: " + login + " sent a request");
-       }
-
-    }
-
-    public void createQuery(){
-        Query query = new Query();
-        query.printToLog();
-
-    }
-
-    @Override
-    public String toString() {
-        return "User{" +
-                "login = '" + login + '\'' +
-                ", password = " + password +
-                '}';
-    }
-}
