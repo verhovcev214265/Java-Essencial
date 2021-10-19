@@ -9,15 +9,15 @@ public class Main {
         Vehicles audi = Vehicles.AUDI;
         System.out.println(audi.toString());
 
+        System.out.println("---------------------------------------------------------------------------------");
+
         Vehicles bmw = Vehicles.BMW;
         System.out.println(bmw.getColor());
+
+        System.out.println("---------------------------------------------------------------------------------");
 
         Vehicles honda = Vehicles.HONDA;
         System.out.println(honda);
 
     }
-
-
-
-
 }

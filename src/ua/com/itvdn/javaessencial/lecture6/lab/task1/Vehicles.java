@@ -23,9 +23,9 @@ public enum Vehicles {
 
     @Override
     public String toString() {
-        return "Vehicles{" +
-                "price=" + price +
-                ", color='" + color + '\'' +
+        return  "model is: " + this.name() +
+                " price = " + price +
+                ", color = '" + color + '\'' +
                 '}';
     }
 }
