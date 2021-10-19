@@ -1,4 +1,4 @@
-package ua.com.itvdn.javaessencial.lecture6.lab;
+package ua.com.itvdn.javaessencial.lecture6.lab.task0;
 
 ////- Создать анонимный класс расширяющий интерфейс Printable, в методе print() которого будут печататься газеты.
 ////- Создать массив типа Printable, который будет содержать книги, журналы и обьект анонимного класса.

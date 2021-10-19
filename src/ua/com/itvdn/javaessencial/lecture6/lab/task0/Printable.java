@@ -1,4 +1,4 @@
-package ua.com.itvdn.javaessencial.lecture6.lab;
+package ua.com.itvdn.javaessencial.lecture6.lab.task0;
 
 //Интерфейс Printable
 //- Определить интерфейс Printable, содержащий метод void print().
