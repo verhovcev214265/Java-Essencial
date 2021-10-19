@@ -1,7 +1,9 @@
-package ua.com.itvdn.javaessencial.lecture5.lab.task0;
+package ua.com.itvdn.javaessencial.lecture5.hometasks.task0;
 //Создать класс Calculator, с методами для выполнения основных арифметических операций.
 //Написать программу, которая выводит на экран основные арифметические операции.
 //add, subtract, multiply, divide
+
+// Якщо чесно не зрозумів навіщо тут це завдання може це не вся умова?
 
 public class Calculator {
 

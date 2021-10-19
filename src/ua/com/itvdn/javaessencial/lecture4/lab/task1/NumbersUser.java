@@ -24,7 +24,7 @@ public class NumbersUser extends Colors {
         int elements = scan.nextInt();
 
         for (int i = 0; i < elements; i++) {
-            System.out.println("Enter  times numbers: ");
+            System.out.println("Enter times numbers: ");
             int inputNumbers = scan.nextInt();
             numbers.add(inputNumbers);
         }
