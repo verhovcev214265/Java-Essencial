@@ -7,7 +7,6 @@ package ua.com.itvdn.javaessencial.lecture7.lab.task0;
 public class Calculator {
 
     public static final String RED_TEXT = "\u001B[31m";
-    private double result;
 
     double add(double operand1, double operand2) {
         return operand1 + operand2;
@@ -33,12 +32,5 @@ public class Calculator {
             System.out.println(RED_TEXT + "Cannot be divided by 0 !!!");
         }
 
-    }
-
-    @Override
-    public String toString() {
-        return "Calculator{" +
-                "result = " + result +
-                '}';
     }
 }

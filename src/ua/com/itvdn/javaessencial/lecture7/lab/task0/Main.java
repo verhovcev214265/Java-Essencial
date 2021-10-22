@@ -22,15 +22,12 @@ public class Main {
         System.out.println(BLUE_TEXT + "Enter second operand: ");
         double input2 = scan.nextDouble();
 
-
-
         System.out.println(YELLOW_TEXT + "Choose operation: \n" +
                 "if you want add enter: 1\n" +
                 "if you want subtract enter: 2\n" +
                 "if you want multiply enter: 3\n" +
                 "if you want divide enter: 4");
         int operation = scan.nextInt();
-
 
             switch (operation) {
                 case 1 -> {
