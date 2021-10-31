@@ -6,16 +6,11 @@ package ua.com.itvdn.javaessencial.lecture2.hometask.task2;
 //Предусмотрите возможность того, что пользователь может передать 2 или 3 аргумента.
 //Выведите информацию о том, как все ученики экземпляра класса ClassRoom умеют учиться, читать, писать,
 //отдыхать.
-
-import org.w3c.dom.stylesheets.LinkStyle;
-
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 
 public class ClassRoom {
     public static void main(String[] args) {
-
+        
         for (int i = 0; i < 4; i++) {
 
             Scanner scan = new Scanner(System.in);
@@ -30,32 +25,31 @@ public class ClassRoom {
                 if (inputRating > 0 && inputRating <= 5) {
 
                     switch (inputRating) {
-                        case (5):
+                        case (5) -> {
                             Pupil excellent = new ExcellentPupil(inputName);
                             System.out.println(excellent);
                             excellent.study(inputRating);
                             excellent.read(inputRating);
                             excellent.write(inputRating);
                             excellent.relax(inputRating);
-                            break;
-                        case (4):
+                        }
+                        case (4) -> {
                             Pupil good = new GoodPupil(inputName);
                             System.out.println(good);
                             good.study(inputRating);
                             good.read(inputRating);
                             good.write(inputRating);
                             good.relax(inputRating);
-                            break;
-                        case (3):
+                        }
+                        case (3) -> {
                             Pupil bad = new BadPupil(inputName);
                             System.out.println(bad);
                             bad.study(inputRating);
                             bad.read(inputRating);
                             bad.write(inputRating);
                             bad.relax(inputRating);
-                            break;
-                        default:
-                            System.out.println("Very bad pupil, because rating less than 3");
+                        }
+                        default -> System.out.println("Very bad pupil, because rating less than 3");
                     }
                 } else {
                     throw new ArithmeticException();
@@ -64,6 +58,7 @@ public class ClassRoom {
                 System.out.println("You enter incorrect symbol please enter from to 5 ONLY!");
             }
         }
+
     }
 }
 

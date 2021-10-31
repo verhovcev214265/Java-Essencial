@@ -112,5 +112,6 @@ public class NumbersUser extends Colors {
                         "than list length!");
             }
         }
+        scan.close();
     }
 }

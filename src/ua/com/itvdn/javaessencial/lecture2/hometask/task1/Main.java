@@ -6,6 +6,7 @@ public class Main {
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);
+
         System.out.println("Enter yor text to print on Canon: ");
         String input = scan.nextLine();
 
@@ -34,6 +35,8 @@ public class Main {
         Samsung samsungDown = (Samsung) samsungUp;
         samsungDown.print(input);
         System.out.println(samsungDown);
+
+        scan.close();
 
     }
 }

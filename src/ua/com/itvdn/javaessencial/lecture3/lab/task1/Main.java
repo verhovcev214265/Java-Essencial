@@ -64,5 +64,6 @@ public class Main {
             default:
                 System.out.println("You enter incorrect symbol, please enter 1,2,3,4 or 0 for Exit!");
         }
+        scan.close();
     }
 }

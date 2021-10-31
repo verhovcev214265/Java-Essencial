@@ -61,5 +61,6 @@ public class Main {
                System.out.println(PURPLE_TEXT + "Error input / output data from the file!");
             }
         }
+        scan.close();
     }
 }

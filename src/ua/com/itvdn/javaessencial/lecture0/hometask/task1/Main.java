@@ -19,5 +19,7 @@ public class Main {
         rectangle.perimeterCalculator(inputLength,inputWidth);
         System.out.println(rectangle);
 
+        scan.close();
+
     }
 }

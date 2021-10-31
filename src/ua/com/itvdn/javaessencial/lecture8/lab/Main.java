@@ -41,12 +41,15 @@ public class Main {
                 case 2 ->{
                     System.out.println("Enter year production of car: ");
                     int inputYearProd = scan.nextInt();
+
                 }
                 case 3 ->{
 
                 }
                 case 4 ->{
-                    if (cars[0].equals(cars[1]))
+                    if (cars[0].equals(cars[1]) && cars[0].equals(cars[1])){
+                        System.out.println();
+                    }
                 }
             }
 

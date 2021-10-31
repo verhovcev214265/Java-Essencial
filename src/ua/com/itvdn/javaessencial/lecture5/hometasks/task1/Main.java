@@ -19,5 +19,7 @@ public class Main {
         Vehicle.Door door = new Vehicle().new Door();
         door.print(messageD);
 
+        scan.close();
+
     }
 }

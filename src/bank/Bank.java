@@ -23,5 +23,5 @@ public class Bank {
             oleksandr.deptSum(-100);
             System.out.println(oleksandr);
         }
-    }
+}
 

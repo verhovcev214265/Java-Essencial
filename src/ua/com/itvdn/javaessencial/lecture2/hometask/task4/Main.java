@@ -38,5 +38,6 @@ public class Main {
                 System.out.println("You entered incorrect symbol. Try again");
 
         }
+        scan.close();
     }
 }

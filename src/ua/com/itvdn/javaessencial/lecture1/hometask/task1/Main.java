@@ -10,5 +10,7 @@ public class Main {
         double input = scan.nextDouble();
 
         System.out.println("Area of circle = " + MyArea.areaOfCircle(input));
+
+        scan.close();
     }
 }

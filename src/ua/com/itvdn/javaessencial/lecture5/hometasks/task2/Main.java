@@ -47,5 +47,7 @@ public class Main {
         } catch (ArithmeticException e) {
             System.out.println(RED_TEXT + "You enter incorrect symbol");
         }
+
+        scan.close();
     }
 }
