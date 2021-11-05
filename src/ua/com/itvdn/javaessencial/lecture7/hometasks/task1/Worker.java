@@ -1,6 +1,6 @@
 package ua.com.itvdn.javaessencial.lecture7.hometasks.task1;
 
-public class Worker {
+public class Worker implements Cloneable {
 
     private String surname;
     private String name;
