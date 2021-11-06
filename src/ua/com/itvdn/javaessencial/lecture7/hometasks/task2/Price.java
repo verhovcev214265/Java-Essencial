@@ -11,9 +11,10 @@ package ua.com.itvdn.javaessencial.lecture7.hometasks.task2;
 //// вывод на экран информации о товарах, продающихся в магазине, название которого введено с
 ////лавиатуры (если такого магазина нет, вывести исключение).
 
+import java.util.Arrays;
 import java.util.Scanner;
 
-public class Price {
+public class Price implements Comparable{
 
     private String productName;
     private String shopName;
@@ -23,6 +24,11 @@ public class Price {
         this.productName = productName;
         this.shopName = shopName;
         this.price = price;
+    }
+
+    @Override
+    public int compareTo(Object o) {
+        return this.productName.compareTo(((Price)o).productName);
     }
 
     public static void creatStores(){
@@ -62,6 +68,11 @@ public class Price {
         }catch (Exception e){
             System.out.println("There is no such store, sorry.");
         }
+
+        Arrays.sort(prices);
+        for(Price temp: prices){
+            System.out.println(temp);
+        }
     }
 
     @Override
@@ -72,4 +83,6 @@ public class Price {
                 ", price = " + price +
                 '}';
     }
+
+
 }
