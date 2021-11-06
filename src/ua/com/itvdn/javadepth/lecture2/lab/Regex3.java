@@ -4,7 +4,7 @@ import java.util.regex.Pattern;
 
 //Дана строка “Versions: Java  5, Java 6, Java   7, Java 8.”  Найти все подстроки "Java X" и распечатать их.
 
-public class Task3 {
+public class Regex3 {
     public static void main(String[] args) {
 
         String myText = "“Versions: Java  5, Java 6, Java   7, Java 8.”";
