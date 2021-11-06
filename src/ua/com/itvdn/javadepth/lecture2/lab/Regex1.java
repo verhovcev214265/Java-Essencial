@@ -10,7 +10,7 @@ public class Regex1 {
 
     public static void main(String[] args) {
         String myText = "'ahb acb aeb aeeb adcb axeb'.";
-        Pattern pattern = Pattern.compile("[a.b]");
+        Pattern pattern = Pattern.compile("a.b");
         Matcher matcher = pattern.matcher(myText);
         while (matcher.find()) {
             System.out.println(myText);
