@@ -28,6 +28,8 @@ public class Car {
     private int price;
     private int registerNumber;
 
+    Car(){}
+
     public Car(int id, String mark, String model, int yearProduction, String color, int price, int registerNumber) {
         this.id = id;
         this.mark = mark;
@@ -38,7 +40,7 @@ public class Car {
         this.registerNumber = registerNumber;
     }
 
-    public static void carsManipulation(){
+    public void carsManipulation(){
         Car[] cars = new Car[5];
 
         cars[0] = new Car(111,"BMW","X5",2019,"bla//1c6K",10000, 455);
