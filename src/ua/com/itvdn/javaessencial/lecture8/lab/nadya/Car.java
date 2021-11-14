@@ -1,4 +1,4 @@
-package ua.com.itvdn.javaessencial.lecture8.lab;
+package ua.com.itvdn.javaessencial.lecture8.lab.nadya;
 
 //Определить конструкторы и методы setТип(), getТип(), toString(). В классе Car переопределить методы equals и hashCode.
 //Создать массив объектов.

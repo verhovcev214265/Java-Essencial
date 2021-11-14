@@ -1,4 +1,4 @@
-package ua.com.itvdn.javaessencial.lecture8.lab;
+package ua.com.itvdn.javaessencial.lecture8.lab.nadya;
 
 ////Приложение при старте, выводит в консоли текстовое меню для выполнения
 ////пользователем нижеперечисленных операций.
@@ -9,6 +9,8 @@ package ua.com.itvdn.javaessencial.lecture8.lab;
 ////выполнения выбранной операции, на экран должен выводиться результат и
 ////снова пользователю предлагается выполнить одну из операций до тех пор,
 ////пока пользователь выполнить выход из приложения.
+
+import ua.com.itvdn.javaessencial.lecture8.lab.nadya.Car;
 
 import java.util.Scanner;
 
