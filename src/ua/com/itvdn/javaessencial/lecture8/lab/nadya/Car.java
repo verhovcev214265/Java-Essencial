@@ -119,16 +119,8 @@ public class Car {
         scan.close();
     }
 
-    public int getId() {
-        return id;
-    }
-
     public String getMark() {
         return mark;
-    }
-
-    public String getModel() {
-        return model;
     }
 
     public int getYearProduction() {
@@ -141,10 +133,6 @@ public class Car {
 
     public int getPrice() {
         return price;
-    }
-
-    public int getRegisterNumber() {
-        return registerNumber;
     }
 
     @Override
