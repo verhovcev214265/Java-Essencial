@@ -100,7 +100,7 @@ public class Car {
                 }
                 case 4 ->{
                     for (int j = 0; j < cars.length; j++){
-                        if (cars[0].equals(cars[j])){
+                        if (cars[0].equals(cars[j]) && cars[0].hashCode() == cars[j].hashCode()){
                             int numbersEqualsCars = (j + 1);
                             System.out.println("Numbers of equals cars = " + numbersEqualsCars);
                             System.out.println(cars[j]);

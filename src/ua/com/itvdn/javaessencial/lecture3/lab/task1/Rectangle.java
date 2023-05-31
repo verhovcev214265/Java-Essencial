@@ -1,12 +1,11 @@
 package ua.com.itvdn.javaessencial.lecture3.lab.task1;
-
 public class Rectangle extends Figure{
-
     public static final String BLUE_TEXT = "\u001B[34m";
 
-    double weight;
-    double width;
-    double area;
+    private double weight;
+    private double width;
+    private double area;
+
 
     public Rectangle(double weight, double width) {
         this.weight = weight;
