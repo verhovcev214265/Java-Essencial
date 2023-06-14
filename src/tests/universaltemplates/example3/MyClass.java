@@ -12,7 +12,7 @@ class Main{
     public static void main(String[] args) {
 
         MyClass instance = new MyClass();
-        instance.method("Hello I`m a open type method");
+        instance.method("Hello Interface`m a open type method");
 
         MyClass instance2 = new MyClass();
         instance2.method(1234);

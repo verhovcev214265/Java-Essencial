@@ -6,6 +6,6 @@ public class Worker extends Employer {
 
     @Override
     public void print() {
-        System.out.println("I`m worker");
+        System.out.println("Interface`m worker");
     }
 }

@@ -4,6 +4,6 @@ public class Circle extends Shape{
 
     @Override
     void draw() {
-        System.out.println("I`m Circle");
+        System.out.println("Interface`m Circle");
     }
 }

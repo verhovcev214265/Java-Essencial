@@ -6,6 +6,6 @@ public class Spider extends Animal {
 
     @Override
     public void move() {
-        System.out.println("I can walk on eight paws");
+        System.out.println("Interface can walk on eight paws");
     }
 }

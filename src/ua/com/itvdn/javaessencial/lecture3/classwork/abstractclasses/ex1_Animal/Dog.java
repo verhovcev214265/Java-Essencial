@@ -6,6 +6,6 @@ public class Dog extends Animal {
 
     @Override
     public void move(){
-        System.out.println("I can walk on four paws.");
+        System.out.println("Interface can walk on four paws.");
     }
 }

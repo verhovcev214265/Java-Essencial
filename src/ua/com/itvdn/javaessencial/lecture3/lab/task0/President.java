@@ -6,6 +6,6 @@ public class President extends Employer {
 
     @Override
     public void print() {
-        System.out.println("I`m a president");
+        System.out.println("Interface`m a president");
     }
 }

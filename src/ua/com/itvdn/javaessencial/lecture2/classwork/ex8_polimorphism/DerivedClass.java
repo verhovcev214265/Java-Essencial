@@ -3,7 +3,7 @@ package ua.com.itvdn.javaessencial.lecture2.classwork.ex8_polimorphism;
 public class DerivedClass extends BaseClass{
 
     public String methodFromBase(){
-        return "I'm method from BaseClass, but I can change my realisation in another classes";
+        return "Interface'm method from BaseClass, but Interface can change my realisation in another classes";
     }
 
 /*
@@ -12,6 +12,6 @@ public class DerivedClass extends BaseClass{
  */
 
 //    private String methodFromBase(){
-//        return "I'm method from BaseClass, but I can change my realisation in another classes";
+//        return "Interface'm method from BaseClass, but Interface can change my realisation in another classes";
 //    }
 }

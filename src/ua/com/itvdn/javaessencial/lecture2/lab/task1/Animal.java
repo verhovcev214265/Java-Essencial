@@ -20,6 +20,6 @@ public class Animal {
     }
 
     void show(){
-        System.out.println("My name is: " + name + "." + "\nI`m a: " + type + ".");
+        System.out.println("My name is: " + name + "." + "\nInterface`m a: " + type + ".");
     }
 }

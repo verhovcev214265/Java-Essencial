@@ -7,9 +7,9 @@ package ua.com.itvdn.temporary.Employee;
 
 public abstract class Employee {
     protected static final String SPACE = " ";
-    protected static final String MESSAGE_PRESIDENT = "I`m a president! ";
-    protected static final String MESSAGE_MANAGER = "I`m a manager! ";
-    protected static final String MESSAGE_WORKER = "I`m a worker! ";
+    protected static final String MESSAGE_PRESIDENT = "Interface`m a president! ";
+    protected static final String MESSAGE_MANAGER = "Interface`m a manager! ";
+    protected static final String MESSAGE_WORKER = "Interface`m a worker! ";
 
     public abstract String print();
 }

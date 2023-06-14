@@ -3,6 +3,6 @@ package ua.com.itvdn.javaessencial.lecture2.classwork.ex9_polimorphism_annotatio
 public class Animal {
 
     public void move(){
-        System.out.println("I can move");
+        System.out.println("Interface can move");
     }
 }

@@ -5,6 +5,6 @@ public abstract class Animal {
     abstract public void move();
 
     public void eat(){
-        System.out.println("I can eat");
+        System.out.println("Interface can eat");
     }
 }
