@@ -13,6 +13,4 @@ public enum Company {
     public int getSalary(){
         return salary;
     }
-
-
 }
