@@ -1,4 +1,4 @@
-package ua.com.itvdn.lecture9.lab.task1;
+package ua.com.itvdn.lecture9_generics.lab.task1;
 
 // Створити "Generic class" в тілі класу має бути метод show(), який буде виводити в крнсрль тип,
 // який буде передано у цей клас MyClass<Integer> myClassInt = new MyClass<>();

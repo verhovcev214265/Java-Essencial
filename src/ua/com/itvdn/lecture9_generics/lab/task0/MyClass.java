@@ -1,4 +1,4 @@
-package ua.com.itvdn.lecture9.lab.task0;
+package ua.com.itvdn.lecture9_generics.lab.task0;
 
 //Создайте класс MyClass<T>, содержащий статический фабричный метод - T factoryMethod(), который
 //будет порождать экземпляры типа, указанного в качестве параметра типа (указателя места заполнения

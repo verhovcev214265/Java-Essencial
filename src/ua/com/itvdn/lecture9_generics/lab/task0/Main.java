@@ -1,4 +1,4 @@
-package ua.com.itvdn.lecture9.lab.task0;
+package ua.com.itvdn.lecture9_generics.lab.task0;
 
 public class Main {
     public static void main(String[] args) {

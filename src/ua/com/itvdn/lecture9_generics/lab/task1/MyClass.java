@@ -1,4 +1,4 @@
-package ua.com.itvdn.lecture9.lab.task1;
+package ua.com.itvdn.lecture9_generics.lab.task1;
 public class MyClass <T> {
 
     private T field;

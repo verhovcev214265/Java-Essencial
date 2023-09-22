@@ -1,4 +1,4 @@
-package ua.com.itvdn.lecture9.hometasks.task1;
+package ua.com.itvdn.lecture9_generics.hometasks.task1;
 
 public class Main {
     public static void main(String[] args) {

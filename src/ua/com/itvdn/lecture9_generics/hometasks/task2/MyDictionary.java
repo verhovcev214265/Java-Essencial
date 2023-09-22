@@ -1,4 +1,4 @@
-package ua.com.itvdn.lecture9.hometasks.task2;
+package ua.com.itvdn.lecture9_generics.hometasks.task2;
 import java.util.HashMap;
 import java.util.Map;
 

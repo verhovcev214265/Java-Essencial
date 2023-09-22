@@ -1,4 +1,4 @@
-package ua.com.itvdn.lecture9.lab.task2;
+package ua.com.itvdn.lecture9_generics.lab.task2;
 
 public class Main {
 

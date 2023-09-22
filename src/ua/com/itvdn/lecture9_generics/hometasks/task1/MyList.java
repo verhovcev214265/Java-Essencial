@@ -1,4 +1,4 @@
-package ua.com.itvdn.lecture9.hometasks.task1;
+package ua.com.itvdn.lecture9_generics.hometasks.task1;
 import java.util.ArrayList;
 import java.util.List;
 
