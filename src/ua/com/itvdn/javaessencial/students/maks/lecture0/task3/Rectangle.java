@@ -9,34 +9,29 @@ package ua.com.itvdn.javaessencial.students.maks.lecture0.task3;
 площадь
  */
 
-import java.util.Scanner;
-
 public class Rectangle {
-    double side1;
-    double side2;
+    protected double side1;
+    protected double side2;
 
-    double areaCalculator (double side1, double side2){
+    public void setSide1(double side1) {
+        this.side1 = side1;
+    }
+    public double getSide1() {
+        return side1;
+    }
+
+    public void setSide2(double side2) {
+        this.side2 = side2;
+    }
+    public double getSide2() {
+        return side2;
+    }
+
+    protected double areaCalculator (double side1, double side2){
         return side1 * side2;
     }
 
-    double perimeterCalculator (double side1, double side2){
-        return side1 + side2; // неправильна формула, як периметер вираховується, Макс =))
-    }
-
-    public static void main(String[] args) {
-         /*
-        - Знов ж таки тобі треба стоворити окремий клас Rectangle, потім окремо створити клас Main в якому буде метод main
-        - Потім тобі треба в main запускати методи areaCalculator та perimeterCalculator
-         */
-        Rectangle result = new Rectangle();
-        Scanner scan = new Scanner(System.in);
-        System.out.println("Enter length of first side:");
-        result.side1 = scan.nextInt();
-
-        System.out.println("Enter length of second side:");
-        result.side2 = scan.nextInt();
-
-        System.out.println(result.areaCalculator(result.side1, result.side2) + "\n"
-                + result.perimeterCalculator(result.side1, result.side2));
+    protected double perimeterCalculator(double side1, double side2) {
+        return (side1 + side2) * 2;
     }
 }

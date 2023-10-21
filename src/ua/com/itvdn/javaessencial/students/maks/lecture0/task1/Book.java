@@ -10,43 +10,41 @@ package ua.com.itvdn.javaessencial.students.maks.lecture0.task1;
 
 public class Book {
 
-    // Перероби завдання так щоб класи Title, Author, Content щоб вони не були статичними.
-
-    public static class Title {
+    protected class Title extends Book {
         String bookTitle;
 
-        public void show() {
+        protected void setBookTitle(String bookTitle) {
+            this.bookTitle = bookTitle;
+        }
+
+        protected void show() {
             System.out.println(bookTitle);
         }
     }
 
-    public static class Author {
+    protected class Author extends Book {
         String authorName;
 
-        public void show() {
+        protected void setAuthorName(String authorName) {
+            this.authorName = authorName;
+        }
+
+        protected void show() {
             System.out.println(authorName);
         }
     }
 
-    public static class Content {
+    protected class Content extends Book {
         String content;
 
-        public void show (){
+        protected void setContent(String content) {
+            this.content = content;
+        }
+
+        protected void show() {
             System.out.println(content);
         }
     }
 
-    public static void main(String[] args) {
-        Title bookTitle = new Title();
-        Author authorName = new Author();
-        Content content = new Content();
 
-        bookTitle.bookTitle = "Black Beard";
-        authorName.authorName = "Melnychenko Maksim";
-        content.content = "This book about adventures of Black Beard, who was the capitan of pirate team.";
-
-        bookTitle.show();
-        authorName.show();
-        content.show();
-    }
 }
