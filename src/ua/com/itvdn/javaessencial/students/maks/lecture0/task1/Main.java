@@ -2,23 +2,18 @@ package ua.com.itvdn.javaessencial.students.maks.lecture0.task1;
 
 public class Main {
     public static void main(String[] args) {
+        Author authorsName = new Author();
+        authorsName.setAuthorsName("Jules Verne");
 
-        Author author = new Author();
-        author.setAuthor("Charles Dickens");
-
-        Title title = new Title();
-        title.setTitle("My first novel");
+        Title bookTitle = new Title();
+        bookTitle.setBookTitle("20000 Leagues Under the Sea");
 
         Content content = new Content();
-        content.setContent("About me");
+        content.setContent("The title refers to the distance, not depth," +
+                " traveled under the various seas: 20,000 metric leagues," +
+                " nearly twice the circumference of the Earth");
 
-        author.show();
-        title.show();
-        content.show();
-
-        Book book = new Book(title.getTitle(), author.getAuthor(), content.getContent());
-        System.out.println(book);
-
-
+        Book favoriteBook = new Book(bookTitle.getBookTitle(), authorsName.getAuthorsName(), content.getContent());
+        favoriteBook.show();
     }
 }

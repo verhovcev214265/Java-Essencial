@@ -1,17 +1,12 @@
 package ua.com.itvdn.javaessencial.students.maks.lecture0.task1;
 
 public class Title {
-    private String title;
+    String bookTitle;
 
-    public String getTitle() {
-        return title;
+    protected void setBookTitle(String bookTitle) {
+        this.bookTitle = bookTitle;
     }
-
-    public void setTitle(String title) {
-        this.title = title;
-    }
-
-    public void show(){
-        System.out.println(title);
+    protected String getBookTitle() {
+        return bookTitle;
     }
 }

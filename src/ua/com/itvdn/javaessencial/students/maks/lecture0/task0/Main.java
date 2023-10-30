@@ -11,9 +11,7 @@ public class Main {
         example.setHouse(30);
         example.setApartment(102);
 
-        System.out.println(
-                "Index = : " + example.getIndex() + "\n" + example.getCountry() + "\n" + example.getCity() + "\n"
-                        + example.getStreet() + "\n" + example.getHouse() + "\n" + example.getApartment()
-        );
+        System.out.println(example.getIndex() + "\n" + example.getCountry() + "\n" + example.getCity()
+                + "\n" + example.getStreet() + "\n" + example.getHouse() + "\n" + example.getApartment());
     }
 }

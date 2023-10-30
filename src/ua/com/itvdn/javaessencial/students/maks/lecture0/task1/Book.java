@@ -13,9 +13,13 @@ public class Book {
     private String author;
     private String content;
 
-    public Book(String title, String author, String content) {
-        this.title = title;
-        this.author = author;
+    public Book(String bookTitle, String authorsName, String content) {
+        this.title = bookTitle;
+        this.author = authorsName;
         this.content = content;
+    }
+
+    public void show() {
+        System.out.println(title + "\n" + author + "\n" + content);
     }
 }
