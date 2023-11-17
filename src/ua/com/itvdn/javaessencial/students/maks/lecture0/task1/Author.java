@@ -1,12 +1,12 @@
 package ua.com.itvdn.javaessencial.students.maks.lecture0.task1;
 
 public class Author {
-    String authorsName;
+    protected String authorsName;
 
-    protected void setAuthorsName(String authorsName) {
+    public void setAuthorsName(String authorsName) {
         this.authorsName = authorsName;
     }
-    protected String getAuthorsName() {
+    public String getAuthorsName() {
         return authorsName;
     }
 }

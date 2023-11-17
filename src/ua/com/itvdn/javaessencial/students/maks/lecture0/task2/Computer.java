@@ -2,14 +2,14 @@ package ua.com.itvdn.javaessencial.students.maks.lecture0.task2;
 
 /*
 Используя IDEA, создайте проект с пакетом. Создать класс Computer, создать массив объектов
-Computers размером 5. Далее руками создать 5 экземпляров этого класса и записать в компьютер
+Computers размером 500. Далее руками создать 500 экземпляров этого класса и записать в компьютер
 (используя loop)
  */
 
 public class Computer {
-    protected String[] computers = new String[5];
+    private String[] computers = new String[5];
 
-    protected void setComputers(String firstWord, String secondWord, String thirdWord, String fourthWord, String fifthWord) {
+    public void setComputers(String firstWord, String secondWord, String thirdWord, String fourthWord, String fifthWord) {
         for (int i = 0; i < computers.length; i++) {
             if (i == 0) computers[i] = firstWord;
             else if (i == 1) computers[i] = secondWord;
@@ -18,10 +18,9 @@ public class Computer {
             else if (i == 4) computers[i] = fifthWord;
         }
     }
-    protected void show() {
+    public void show() {
         for (int i = 0; i < computers.length; i++) {
             System.out.print(computers[i] + " ");
         }
     }
-
 }

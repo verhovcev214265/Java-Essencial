@@ -10,8 +10,16 @@ package ua.com.itvdn.javaessencial.students.maks.lecture0.task3;
  */
 
 public class Rectangle {
-    protected double side1;
-    protected double side2;
+    private double side1;
+    private double side2;
+
+    public double areaCalculator (double side1, double side2){
+        return side1 * side2;
+    }
+
+    public double perimeterCalculator(double side1, double side2) {
+        return (side1 + side2) * 2;
+    }
 
     public void setSide1(double side1) {
         this.side1 = side1;
@@ -27,11 +35,5 @@ public class Rectangle {
         return side2;
     }
 
-    protected double areaCalculator (double side1, double side2){
-        return side1 * side2;
-    }
 
-    protected double perimeterCalculator(double side1, double side2) {
-        return (side1 + side2) * 2;
-    }
 }

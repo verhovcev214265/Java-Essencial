@@ -1,6 +1,6 @@
 package ua.com.itvdn.javaessencial.students.maks.lecture0.task0;
 
-public class Main {
+public class MainAdress {
     public static void main(String[] args) {
         Address example = new Address();
 

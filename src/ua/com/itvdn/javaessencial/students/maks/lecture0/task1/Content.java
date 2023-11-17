@@ -1,12 +1,12 @@
 package ua.com.itvdn.javaessencial.students.maks.lecture0.task1;
 
 public class Content {
-    String content;
+    protected String content;
 
-    protected void setContent(String content) {
+    public void setContent(String content) {
         this.content = content;
     }
-    protected String getContent () {
+    public String getContent () {
         return content;
     }
 }

@@ -1,6 +1,6 @@
 package ua.com.itvdn.javaessencial.students.maks.lecture0.task1;
 
-public class Main {
+public class MainBook {
     public static void main(String[] args) {
         Author authorsName = new Author();
         authorsName.setAuthorsName("Jules Verne");

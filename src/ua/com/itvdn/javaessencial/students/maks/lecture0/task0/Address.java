@@ -11,12 +11,12 @@ street, house, apartment.
 
 public class Address {
 
-    protected int index;
-    protected String country;
-    protected String city;
-    protected String street;
-    protected int house;
-    protected int apartment;
+    private int index;
+    private String country;
+    private String city;
+    private String street;
+    private int house;
+    private int apartment;
 
     public void setIndex(int index) {
         this.index = index;

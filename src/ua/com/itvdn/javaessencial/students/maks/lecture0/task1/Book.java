@@ -9,9 +9,9 @@ package ua.com.itvdn.javaessencial.students.maks.lecture0.task1;
  */
 
 public class Book {
-    private String title;
-    private String author;
-    private String content;
+    protected String title;
+    protected String author;
+    protected String content;
 
     public Book(String bookTitle, String authorsName, String content) {
         this.title = bookTitle;
