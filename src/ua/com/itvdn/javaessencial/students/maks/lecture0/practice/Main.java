@@ -5,57 +5,82 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        Car[] cars = new Car[5];
+        Car[] cars = new Car[2];
         Scanner scan = new Scanner(System.in);
 
         for (int i = 0; i < cars.length; i++) {
-            System.out.println("Enter the model, color, serial number," +
-                    " type of engine and max speed of " + (i + 1) + " car:");
-            cars[i] = new Car(scan.next(), scan.next(), scan.nextInt(), scan.next(), scan.nextInt());
+            cars[i] = new Car();
+
+            System.out.println("Enter model:");
+            String model = scan.next();
+            cars[i].setModel(model);
+
+            System.out.println("Enter color:");
+            String color = scan.next();
+            cars[i].setColor(color);
+
+            System.out.println("Enter serialNumber:");
+            int serialNumber = scan.nextInt();
+            cars[i].setSerialNumber(serialNumber);
+
+            System.out.println("Enter engine:");
+            String engine = scan.next();
+            cars[i].setEngine(engine);
+
+            System.out.println("Enter custom:");
+            String custom = scan.next();
+            cars[i].setCustom(custom);
+
+            System.out.println("Enter max speed:");
+            int maxSpeed = scan.nextInt();
+            cars[i].setMaxSpeed(maxSpeed);
         }
 
-        for (int i = 0; i < cars.length; i++) {
-            System.out.println("if you want to change something in car number " + (i + 1) +
-                    ", press 1. Otherwise, press 2.");
-            int firsChoice = scan.nextInt();
+        for (Car car : cars) {
+            System.out.println(car);
+        }
 
-            if (firsChoice == 1) {
-                System.out.println("What do you want to add or change:" + "\n" + "Color - press 1" +
-                        "\n" + "Customization - press 2" + "\n" + "Max speed - press 3");
-                int secondChoice = scan.nextInt();
+        System.out.println("Enter serial number of car for action: \n" +
+                "exit any button:");
+        int inputSerialNumber = scan.nextInt();
 
-                if (secondChoice == 1) {
-                    System.out.println("What color do you want to change to?");
+
+        if (inputSerialNumber < 0 || inputSerialNumber > cars.length) {
+            System.out.println("bye - bye");
+        } else {
+            System.out.println(
+                    "Menu: \n" +
+                            "change color press 1.\n" +
+                            "change customization press 2.\n" +
+                            "change max speed press 3." +
+                            "exit press another one button."
+            );
+
+            int action = scan.nextInt();
+
+            switch (action) {
+                case 1:
+                    System.out.println("Enter color:");
                     String newColor = scan.next();
-
-                    cars[i].changeColor(newColor);
-                } else if (secondChoice == 2) {
-                    cars[i].customization("SUPERTURBO+");
-
-                    System.out.println("Customization has been added." + "\n");
-                } else if (secondChoice == 3) {
-                    System.out.println("Enter the max speed (use only numbers):");
+                    cars[inputSerialNumber].setColor(newColor);
+                    break;
+                case 2:
+                    System.out.println("Enter customization:");
+                    String newCustom = scan.next();
+                    cars[inputSerialNumber].setCustom(newCustom);
+                    break;
+                case 3:
+                    System.out.println("Enter max speed:");
                     int newMaxSpeed = scan.nextInt();
-
-                    cars[i].changeMaxSpeed(newMaxSpeed);
-                } else {
-                    System.out.println("You have entered something wrong. We haven`t made any changes.");
-                }
-            } else if (firsChoice == 2) {
-
-            }else {
-                System.out.println("You have entered something wrong. We haven`t made any changes.");
+                    cars[inputSerialNumber].setMaxSpeed(newMaxSpeed);
+                    break;
+                default:
+                    System.out.println("bye - bye");
             }
         }
 
-        for (int i = 0; i < cars.length; i++) {
-            System.out.println("Car number " + (i + 1) +
-                    "\n" + "Car model: " + cars[i].getModel() +
-                    "\n" + "Car color: " + cars[i].getColor() +
-                    "\n" + "Car serial number: " + cars[i].getSerialNumber() +
-                    "\n" + "Car type of engine: " + cars[i].getEngine() +
-                    "\n" + "Car customization: " + cars[i].getCustom() +
-                    "\n" + "Car max speed: " + cars[i].getMaxSpeed() + "\n");
+        for (Car car : cars) {
+            System.out.println(car);
         }
     }
 }
